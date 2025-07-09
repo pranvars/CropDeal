@@ -1,0 +1,6 @@
+@DealerService_HostAddress = http://localhost:5201
+
+GET {{DealerService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

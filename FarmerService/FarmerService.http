@@ -1,0 +1,6 @@
+@FarmerService_HostAddress = http://localhost:5159
+
+GET {{FarmerService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

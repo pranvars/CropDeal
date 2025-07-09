@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{98EEDB11-F058-44C7-B553-1B1863584B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CropService", "CropService\CropService.csproj", "{5874847C-AD60-4200-A03A-BC3936BD5CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmerService", "FarmerService\FarmerService.csproj", "{3A33572F-4662-4A0D-888B-BE288F865EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerService", "DealerService\DealerService.csproj", "{0E66D49B-A2E8-4F1F-82D4-B939EDD390A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{3AECD85F-C1FF-4EF2-9FFF-F2EFB47D8F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService", "TransactionService\TransactionService.csproj", "{B9882CF2-EDDD-46E9-807A-0DA4EAB1969F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CropDealTests", "CropDealTests\CropDealTests.csproj", "{20842885-04C3-494C-A0E8-B8107EE7E30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98EEDB11-F058-44C7-B553-1B1863584B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EEDB11-F058-44C7-B553-1B1863584B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EEDB11-F058-44C7-B553-1B1863584B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EEDB11-F058-44C7-B553-1B1863584B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5874847C-AD60-4200-A03A-BC3936BD5CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5874847C-AD60-4200-A03A-BC3936BD5CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5874847C-AD60-4200-A03A-BC3936BD5CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5874847C-AD60-4200-A03A-BC3936BD5CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A33572F-4662-4A0D-888B-BE288F865EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A33572F-4662-4A0D-888B-BE288F865EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A33572F-4662-4A0D-888B-BE288F865EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A33572F-4662-4A0D-888B-BE288F865EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E66D49B-A2E8-4F1F-82D4-B939EDD390A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E66D49B-A2E8-4F1F-82D4-B939EDD390A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E66D49B-A2E8-4F1F-82D4-B939EDD390A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E66D49B-A2E8-4F1F-82D4-B939EDD390A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AECD85F-C1FF-4EF2-9FFF-F2EFB47D8F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AECD85F-C1FF-4EF2-9FFF-F2EFB47D8F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AECD85F-C1FF-4EF2-9FFF-F2EFB47D8F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AECD85F-C1FF-4EF2-9FFF-F2EFB47D8F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9882CF2-EDDD-46E9-807A-0DA4EAB1969F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9882CF2-EDDD-46E9-807A-0DA4EAB1969F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9882CF2-EDDD-46E9-807A-0DA4EAB1969F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9882CF2-EDDD-46E9-807A-0DA4EAB1969F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20842885-04C3-494C-A0E8-B8107EE7E30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20842885-04C3-494C-A0E8-B8107EE7E30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20842885-04C3-494C-A0E8-B8107EE7E30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20842885-04C3-494C-A0E8-B8107EE7E30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
