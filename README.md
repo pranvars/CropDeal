@@ -98,47 +98,32 @@ Handles all crop transaction records between farmers and dealers.
    ```bash
    git clone https://github.com/your-username/cropdeal-backend.git
    cd cropdeal-backend
-Configure connection strings
+2. Configure connection strings
 
-Go to appsettings.json in each microservice.
+    Go to appsettings.json in each microservice.
+    Update your SQL Server connection string.
+3. Run the services
+  dotnet run --project ./FarmerService/FarmerService.csproj
+  dotnet run --project ./DealerService/DealerService.csproj
+  dotnet run --project ./AuthService/AuthService.csproj
+  dotnet run --project ./TransactionService/TransactionService.csproj
+4. Test the endpoints
+   Use Swagger or Postman to interact with each service.
 
-Update your SQL Server connection string.
-
-Run the services
-
-bash
-Copy
-Edit
-dotnet run --project ./FarmerService/FarmerService.csproj
-dotnet run --project ./DealerService/DealerService.csproj
-dotnet run --project ./AuthService/AuthService.csproj
-dotnet run --project ./TransactionService/TransactionService.csproj
-Test the endpoints
-
-Use Swagger or Postman to interact with each service.
 
 🧪 Testing
-Each microservice includes its own:
+  Each microservice includes its own:
+    Controllers
+    Process layer
+    Repository layer
 
-Controllers
-
-Process layer
-
-Repository layer
-
-Unit testing and integration testing can be added using:
-
-xUnit
-
-Moq
-
-Entity Framework Core In-Memory DB
+  Unit testing and integration testing can be added using:
+    xUnit
+    Moq
+    Entity Framework Core In-Memory DB
 
 📁 Folder Structure (Example)
-arduino
-Copy
-Edit
-CropDeal-Backend/
+    CropDeal-Backend/
 ├── AuthService/
 │   ├── Controllers/
 │   ├── Models/
@@ -152,6 +137,7 @@ CropDeal-Backend/
 ├── DealerService/
 ├── TransactionService/
 └── Shared/
+
 📌 Features Summary
 Role	Key Features
 Farmer	Register, Manage Profile, Publish Crops, View Sales
@@ -166,14 +152,9 @@ This project is licensed under the MIT License.
 Pull requests are welcome! For major changes, open an issue first to discuss what you would like to change.
 
 📬 Contact
-Created by Your Name
+Created by Pranav
 
-For queries: your.email@example.com
+For queries: prnvvarshney@gmail.com
 
-yaml
-Copy
-Edit
 
----
 
-Let me know if you want a **frontend version** of the README as well, or if you'd like this custom
