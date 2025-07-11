@@ -178,5 +178,5 @@ Pull requests are welcome! For major changes, open an issue first to discuss wha
 
 ## 📬 Contact
 
-- Created by [Your Name](https://github.com/your-username)
-- For queries: your.email@example.com
+- Created by [Pranav Varshney](https://github.com/claudikt)
+- For queries: prnvvarshney@gmail.com
